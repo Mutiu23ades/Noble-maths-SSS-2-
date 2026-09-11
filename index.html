@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>SSS 2 Mathematics App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- APP HEADER -->
+    <header class="app-header">
+        <h1>SSS 2 Mathematics App</h1>
+        <p>45 Topics Mathematics Learning App</p>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
+        <!-- TOPIC SELECTION -->
+        <section class="topic-selector">
+            <h2>Select a Topic</h2>
+
+            <select id="topicSelect" onchange="showTopic()">
+                <option value="">-- Select a Mathematics Topic --</option>
+            </select>
+        </section>
+
+
+        <!-- LESSON DISPLAY -->
+        <section id="lesson" class="lesson-container">
+
+            <div class="welcome-box">
+                <h2>Welcome to SSS 2 Mathematics</h2>
+
+                <p>
+                    This app contains 45 Mathematics topics designed
+                    for Senior Secondary School 2 students.
+                </p>
+
+                <p>
+                    Select a topic above to begin learning.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="app-footer">
+        <p>SSS 2 Mathematics App</p>
+        <p>Learn • Practise • Understand • Succeed</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
