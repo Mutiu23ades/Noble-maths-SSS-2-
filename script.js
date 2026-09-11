@@ -1558,7 +1558,410 @@ function showTopic() {
 
             </div>
         `
-    },.lesson}
+    },.    // =========================================================
+    // TOPIC 11: LINEAR EQUATIONS
+    // =========================================================
+
+    11: {
+        title: "Linear Equations",
+
+        lesson: `
+            <h3>Lesson</h3>
+            <p>A linear equation is an equation in which the highest power of the unknown is 1.</p>
+
+            <p>Examples include:</p>
+            <ul>
+                <li>2x + 5 = 17</li>
+                <li>3x - 7 = 11</li>
+                <li>5(x + 2) = 25</li>
+            </ul>
+
+            <p>The main aim when solving a linear equation is to find the value of the unknown.</p>
+
+            <h3>Rules for Solving Equations</h3>
+            <p>Whatever operation is performed on one side of an equation must also be performed on the other side.</p>
+
+            <p>Useful operations include:</p>
+            <ul>
+                <li>Adding or subtracting the same number on both sides.</li>
+                <li>Multiplying or dividing both sides by the same non-zero number.</li>
+                <li>Removing brackets by expansion.</li>
+                <li>Collecting like terms.</li>
+            </ul>
+
+            <h3>Worked Examples</h3>
+
+            <p><strong>Example 1:</strong> Solve 3x + 7 = 22.</p>
+            <p>3x = 22 - 7</p>
+            <p>3x = 15</p>
+            <p>x = 5</p>
+
+            <p><strong>Example 2:</strong> Solve 5x - 9 = 16.</p>
+            <p>5x = 16 + 9</p>
+            <p>5x = 25</p>
+            <p>x = 5</p>
+
+            <p><strong>Example 3:</strong> Solve 4(x + 3) = 28.</p>
+            <p>Divide both sides by 4:</p>
+            <p>x + 3 = 7</p>
+            <p>x = 4</p>
+
+            <p><strong>Example 4:</strong> Solve 3(x - 2) + 5 = 17.</p>
+            <p>3x - 6 + 5 = 17</p>
+            <p>3x - 1 = 17</p>
+            <p>3x = 18</p>
+            <p>x = 6</p>
+
+            <h3>Practice Questions</h3>
+            <ol>
+                <li>Solve 2x + 5 = 19.</li>
+                <li>Solve 7x - 4 = 31.</li>
+                <li>Solve 6(x + 2) = 42.</li>
+                <li>Solve 4x - 3 = 2x + 11.</li>
+                <li>Solve 5(x - 1) + 2 = 22.</li>
+            </ol>
+
+            <h3>Answers</h3>
+            <ol>
+                <li>x = 7</li>
+                <li>x = 5</li>
+                <li>x = 5</li>
+                <li>x = 7</li>
+                <li>x = 5</li>
+            </ol>
+        `
+    },
+
+
+    // =========================================================
+    // TOPIC 12: CHANGE OF SUBJECT OF FORMULA
+    // =========================================================
+
+    12: {
+        title: "Change of Subject of Formula",
+
+        lesson: `
+            <h3>Lesson</h3>
+            <p>A formula is an equation that shows the relationship between quantities. Changing the subject of a formula means rearranging the formula so that a different variable is alone on one side.</p>
+
+            <p>For example, from:</p>
+            <p><strong>v = u + at</strong></p>
+            <p>we can make <strong>t</strong> the subject:</p>
+            <p><strong>t = (v - u) / a</strong></p>
+
+            <h3>Basic Principles</h3>
+            <ul>
+                <li>Identify the variable that must become the subject.</li>
+                <li>Use inverse operations to isolate it.</li>
+                <li>Perform the same operation on both sides.</li>
+                <li>Simplify the final expression.</li>
+            </ul>
+
+            <h3>Worked Examples</h3>
+
+            <p><strong>Example 1:</strong> Make x the subject of y = 3x + 5.</p>
+            <p>y - 5 = 3x</p>
+            <p><strong>x = (y - 5)/3</strong></p>
+
+            <p><strong>Example 2:</strong> Make t the subject of v = u + at.</p>
+            <p>v - u = at</p>
+            <p><strong>t = (v - u)/a</strong></p>
+
+            <p><strong>Example 3:</strong> Make r the subject of A = πr².</p>
+            <p>Divide by π:</p>
+            <p>A/π = r²</p>
+            <p>Take the positive square root:</p>
+            <p><strong>r = √(A/π)</strong></p>
+
+            <p><strong>Example 4:</strong> Make b the subject of A = ½(a + b)h.</p>
+            <p>Multiply both sides by 2:</p>
+            <p>2A = (a + b)h</p>
+            <p>Divide by h:</p>
+            <p>2A/h = a + b</p>
+            <p>Therefore:</p>
+            <p><strong>b = 2A/h - a</strong></p>
+
+            <h3>Practice Questions</h3>
+            <ol>
+                <li>Make x the subject of y = 4x + 7.</li>
+                <li>Make t the subject of s = ut + ½at² when the formula is first rearranged for the required variable where appropriate.</li>
+                <li>Make r the subject of C = 2πr.</li>
+                <li>Make h the subject of A = ½bh.</li>
+                <li>Make x the subject of y = (x + 3)/5.</li>
+            </ol>
+
+            <h3>Answers</h3>
+            <ol>
+                <li>x = (y - 7)/4</li>
+                <li>This requires solving a quadratic equation in t; it is not obtained by simple linear rearrangement.</li>
+                <li>r = C/(2π)</li>
+                <li>h = 2A/b</li>
+                <li>x = 5y - 3</li>
+            </ol>
+        `
+    },
+
+
+    // =========================================================
+    // TOPIC 13: SIMULTANEOUS EQUATIONS
+    // =========================================================
+
+    13: {
+        title: "Simultaneous Equations",
+
+        lesson: `
+            <h3>Lesson</h3>
+            <p>Simultaneous equations are two or more equations containing two or more unknowns. The solution must satisfy all the equations at the same time.</p>
+
+            <p>Two common methods for solving simultaneous linear equations are:</p>
+            <ul>
+                <li>Elimination method</li>
+                <li>Substitution method</li>
+            </ul>
+
+            <h3>Elimination Method</h3>
+            <p>The elimination method involves adding or subtracting equations so that one of the unknowns is eliminated.</p>
+
+            <h3>Worked Example 1</h3>
+            <p>Solve:</p>
+            <p>x + y = 10</p>
+            <p>x - y = 2</p>
+
+            <p>Add the equations:</p>
+            <p>2x = 12</p>
+            <p>x = 6</p>
+
+            <p>Substitute x = 6 into x + y = 10:</p>
+            <p>6 + y = 10</p>
+            <p>y = 4</p>
+
+            <p><strong>Therefore, x = 6 and y = 4.</strong></p>
+
+            <h3>Worked Example 2</h3>
+            <p>Solve:</p>
+            <p>2x + y = 11</p>
+            <p>x - y = 1</p>
+
+            <p>Add the equations:</p>
+            <p>3x = 12</p>
+            <p>x = 4</p>
+
+            <p>Substitute into x - y = 1:</p>
+            <p>4 - y = 1</p>
+            <p>y = 3</p>
+
+            <h3>Substitution Method</h3>
+            <p>From one equation, express one unknown in terms of the other and substitute it into the second equation.</p>
+
+            <p><strong>Example 3:</strong></p>
+            <p>y = 2x + 1</p>
+            <p>x + y = 10</p>
+
+            <p>Substitute y = 2x + 1:</p>
+            <p>x + 2x + 1 = 10</p>
+            <p>3x = 9</p>
+            <p>x = 3</p>
+
+            <p>Therefore:</p>
+            <p>y = 2(3) + 1 = 7</p>
+
+            <h3>Practice Questions</h3>
+            <ol>
+                <li>Solve x + y = 12 and x - y = 4.</li>
+                <li>Solve 2x + y = 13 and x - y = 2.</li>
+                <li>Solve 3x + y = 14 and x + y = 8.</li>
+                <li>Solve x + 2y = 11 and x - y = 2.</li>
+                <li>Solve 2x + 3y = 13 and x + y = 5.</li>
+            </ol>
+
+            <h3>Answers</h3>
+            <ol>
+                <li>x = 8, y = 4</li>
+                <li>x = 5, y = 3</li>
+                <li>x = 3, y = 5</li>
+                <li>x = 5, y = 3</li>
+                <li>x = 2, y = 3</li>
+            </ol>
+        `
+    },
+
+
+    // =========================================================
+    // TOPIC 14: QUADRATIC EQUATIONS
+    // =========================================================
+
+    14: {
+        title: "Quadratic Equations",
+
+        lesson: `
+            <h3>Lesson</h3>
+            <p>A quadratic equation is an equation in which the highest power of the unknown is 2.</p>
+
+            <p>The general form is:</p>
+            <p><strong>ax² + bx + c = 0</strong>, where a ≠ 0.</p>
+
+            <p>Quadratic equations can be solved by:</p>
+            <ul>
+                <li>Factorization</li>
+                <li>Completing the square</li>
+                <li>Quadratic formula</li>
+            </ul>
+
+            <h3>Factorization</h3>
+            <p>To factorize x² + bx + c, find two numbers whose product is c and whose sum is b.</p>
+
+            <h3>Worked Example 1</h3>
+            <p>Solve x² + 5x + 6 = 0.</p>
+
+            <p>Find two numbers whose product is 6 and sum is 5.</p>
+            <p>The numbers are 2 and 3.</p>
+
+            <p>Therefore:</p>
+            <p>(x + 2)(x + 3) = 0</p>
+
+            <p>Hence:</p>
+            <p>x + 2 = 0 or x + 3 = 0</p>
+            <p><strong>x = -2 or x = -3</strong></p>
+
+            <h3>Worked Example 2</h3>
+            <p>Solve x² - 7x + 12 = 0.</p>
+
+            <p>(x - 3)(x - 4) = 0</p>
+
+            <p>Therefore:</p>
+            <p><strong>x = 3 or x = 4</strong></p>
+
+            <h3>Quadratic Formula</h3>
+            <p>For ax² + bx + c = 0:</p>
+            <p><strong>x = (-b ± √(b² - 4ac))/(2a)</strong></p>
+
+            <h3>Worked Example 3</h3>
+            <p>Solve 2x² + 3x - 2 = 0.</p>
+
+            <p>Here, a = 2, b = 3 and c = -2.</p>
+
+            <p>x = [-3 ± √(3² - 4(2)(-2))]/4</p>
+            <p>x = [-3 ± √25]/4</p>
+            <p>x = (-3 ± 5)/4</p>
+
+            <p>Therefore:</p>
+            <p><strong>x = 1/2 or x = -2</strong></p>
+
+            <h3>Practice Questions</h3>
+            <ol>
+                <li>Solve x² + 7x + 12 = 0.</li>
+                <li>Solve x² - 9x + 20 = 0.</li>
+                <li>Solve x² - x - 12 = 0.</li>
+                <li>Solve 2x² - 5x + 2 = 0.</li>
+                <li>Solve x² + 2x - 15 = 0.</li>
+            </ol>
+
+            <h3>Answers</h3>
+            <ol>
+                <li>x = -3 or -4</li>
+                <li>x = 4 or 5</li>
+                <li>x = 4 or -3</li>
+                <li>x = 2 or 1/2</li>
+                <li>x = 3 or -5</li>
+            </ol>
+        `
+    },
+
+
+    // =========================================================
+    // TOPIC 15: VARIATION
+    // =========================================================
+
+    15: {
+        title: "Variation",
+
+        lesson: `
+            <h3>Lesson</h3>
+            <p>Variation describes how one quantity changes in relation to another quantity.</p>
+
+            <p>The major types studied are:</p>
+            <ul>
+                <li>Direct variation</li>
+                <li>Inverse variation</li>
+                <li>Joint variation</li>
+                <li>Partial variation</li>
+            </ul>
+
+            <h3>Direct Variation</h3>
+            <p>If y varies directly as x, then:</p>
+            <p><strong>y ∝ x</strong></p>
+            <p>Therefore:</p>
+            <p><strong>y = kx</strong></p>
+            <p>where k is the constant of variation.</p>
+
+            <h3>Worked Example 1</h3>
+            <p>y varies directly as x. If y = 12 when x = 4, find y when x = 7.</p>
+
+            <p>y = kx</p>
+            <p>12 = 4k</p>
+            <p>k = 3</p>
+
+            <p>Therefore:</p>
+            <p>y = 3x</p>
+
+            <p>When x = 7:</p>
+            <p>y = 3(7) = <strong>21</strong></p>
+
+            <h3>Inverse Variation</h3>
+            <p>If y varies inversely as x:</p>
+            <p><strong>y ∝ 1/x</strong></p>
+            <p>Therefore:</p>
+            <p><strong>y = k/x</strong></p>
+
+            <h3>Worked Example 2</h3>
+            <p>y varies inversely as x. If y = 8 when x = 3, find y when x = 12.</p>
+
+            <p>y = k/x</p>
+            <p>8 = k/3</p>
+            <p>k = 24</p>
+
+            <p>Therefore:</p>
+            <p>y = 24/x</p>
+
+            <p>When x = 12:</p>
+            <p>y = 24/12 = <strong>2</strong></p>
+
+            <h3>Joint Variation</h3>
+            <p>If y varies jointly as x and z:</p>
+            <p><strong>y = kxz</strong></p>
+
+            <h3>Worked Example 3</h3>
+            <p>y varies jointly as x and z. If y = 24 when x = 2 and z = 3, find y when x = 4 and z = 5.</p>
+
+            <p>24 = k(2)(3)</p>
+            <p>24 = 6k</p>
+            <p>k = 4</p>
+
+            <p>Thus:</p>
+            <p>y = 4xz</p>
+
+            <p>When x = 4 and z = 5:</p>
+            <p>y = 4(4)(5) = <strong>80</strong></p>
+
+            <h3>Practice Questions</h3>
+            <ol>
+                <li>y varies directly as x. If y = 15 when x = 5, find y when x = 8.</li>
+                <li>y varies directly as x². If y = 20 when x = 2, find y when x = 4.</li>
+                <li>y varies inversely as x. If y = 6 when x = 4, find y when x = 8.</li>
+                <li>y varies inversely as x². If y = 18 when x = 2, find y when x = 6.</li>
+                <li>y varies jointly as x and z. If y = 30 when x = 2 and z = 5, find y when x = 3 and z = 4.</li>
+            </ol>
+
+            <h3>Answers</h3>
+            <ol>
+                <li>y = 24</li>
+                <li>y = 80</li>
+                <li>y = 3</li>
+                <li>y = 2</li>
+                <li>y = 36</li>
+            </ol>
+        `
+    },}
 
     `;
 
