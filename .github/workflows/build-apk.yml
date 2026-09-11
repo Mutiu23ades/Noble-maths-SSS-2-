@@ -25,6 +25,13 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      - name: Prepare web files
+        run: |
+          mkdir -p web
+          cp index.html web/
+          cp style.css web/
+          cp script.js web/
+
       - name: Install Capacitor
         run: |
           npm install
@@ -35,11 +42,6 @@ jobs:
 
       - name: Sync web app
         run: npx cap sync android
-
-      - name: Fix Kotlin dependencies
-        working-directory: android
-        run: |
-          sed -i '/resolutionStrategy.eachDependency/,/^    }/d' app/build.gradle || true
 
       - name: Build APK
         working-directory: android
