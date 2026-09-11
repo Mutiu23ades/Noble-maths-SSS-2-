@@ -1,1 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* HEADER */
+.app-header {
+    background: #123c69;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.app-header h1 {
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+
+.app-header p {
+    font-size: 16px;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 94%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* TOPIC SELECTOR */
+.topic-selector {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+.topic-selector h2 {
+    color: #123c69;
+    margin-bottom: 12px;
+    font-size: 21px;
+}
+
+#topicSelect {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid #123c69;
+    border-radius: 8px;
+    background: white;
+}
+
+/* LESSON AREA */
+.lesson-container {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+.welcome-box {
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.welcome-box h2 {
+    color: #123c69;
+    margin-bottom: 15px;
+}
+
+/* TOPIC TITLE */
+.topic-title {
+    color: #123c69;
+    font-size: 25px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #123c69;
+    padding-bottom: 8px;
+}
+
+/* SECTION HEADINGS */
+.lesson-section h3 {
+    color: #123c69;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* GENERAL TEXT */
+.lesson-section p {
+    margin-bottom: 12px;
+}
+
+/* EXAMPLES */
+.example {
+    background: #f0f6ff;
+    border-left: 5px solid #123c69;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+.example strong {
+    display: block;
+    margin-bottom: 7px;
+}
+
+/* PRACTICE QUESTIONS */
+.practice {
+    background: #fff8e6;
+    border-left: 5px solid #e0a000;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+.practice ol {
+    padding-left: 22px;
+}
+
+.practice li {
+    margin-bottom: 12px;
+}
+
+/* ANSWERS */
+.answers {
+    background: #edf8ef;
+    border-left: 5px solid #2e7d32;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.answers ol {
+    padding-left: 22px;
+}
+
+.answers li {
+    margin-bottom: 10px;
+}
+
+/* IMPORTANT FORMULAS */
+.formula {
+    background: #f5f0ff;
+    border: 1px solid #9b7bc7;
+    padding: 14px;
+    margin: 12px 0;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* TABLES */
+.lesson-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.lesson-section th,
+.lesson-section td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.lesson-section th {
+    background: #123c69;
+    color: white;
+}
+
+/* FOOTER */
+.app-footer {
+    background: #123c69;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+    .app-header h1 {
+        font-size: 23px;
+    }
+
+    .app-header p {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 96%;
+    }
+
+    .lesson-container {
+        padding: 17px;
+    }
+
+    .topic-title {
+        font-size: 21px;
+    }
+
+    .lesson-section h3 {
+        font-size: 18px;
+    }
+
+    #topicSelect {
+        font-size: 15px;
+    }
+}
