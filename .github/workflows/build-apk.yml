@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          npm install @capacitor/core @capacitor/cli @capacitor/android
+          npm install @capacitor/core@7.4.3 @capacitor/cli@7.4.3 @capacitor/android@7.4.3
 
       - name: Create Android project
         run: npx cap add android
@@ -36,11 +36,22 @@ jobs:
       - name: Sync web app
         run: npx cap sync android
 
+      - name: Force Kotlin dependency compatibility
+        working-directory: android
+        run: |
+          echo "configurations.all {"
+          echo "    resolutionStrategy.eachDependency { details ->"
+          echo "        if (details.requested.group == 'org.jetbrains.kotlin') {"
+          echo "            details.useVersion '1.8.22'"
+          echo "        }"
+          echo "    }"
+          echo "}" >> app/build.gradle
+
       - name: Build APK
         working-directory: android
         run: |
           chmod +x gradlew
-          ./gradlew assembleDebug
+          ./gradlew clean assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
