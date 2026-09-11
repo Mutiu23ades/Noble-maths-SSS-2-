@@ -1,1 +1,9 @@
-
+{
+  "name": "noble-maths-sss-2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SSS 2 Mathematics App",
+  "scripts": {
+    "build": "echo SSS 2 Mathematics App"
+  }
+}
