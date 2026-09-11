@@ -1,5 +1,5 @@
 {
   "appId": "com.noblemaths.sss2",
   "appName": "Noble Maths SSS 2",
-  "webDir": "."
+  "webDir": "web"
 }
