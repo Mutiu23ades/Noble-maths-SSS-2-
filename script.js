@@ -788,7 +788,777 @@ function showTopic() {
             Topic ${selectedTopic}: ${topic.title}
         </h2>
 
-        ${topic.lesson}
+        ${    // ========================================================
+    // TOPIC 6
+    // ========================================================
+
+    6: {
+        title: "Variation",
+
+        lesson: `
+            <div class="lesson-section">
+
+                <h3>Lesson</h3>
+
+                <p>
+                    Variation describes how one quantity changes in relation
+                    to another quantity. The major types are direct,
+                    inverse, joint and partial variation.
+                </p>
+
+                <h3>Direct Variation</h3>
+
+                <p>
+                    If y varies directly as x, we write:
+                </p>
+
+                <div class="formula">
+                    y ∝ x
+                    <br>
+                    y = kx
+                </div>
+
+                <p>
+                    where k is the constant of proportionality.
+                </p>
+
+                <div class="example">
+                    <strong>Worked Example 1</strong>
+
+                    y varies directly as x. If y = 12 when x = 4,
+                    find y when x = 10.
+
+                    <br><br>
+
+                    y = kx
+
+                    <br>
+
+                    12 = 4k
+
+                    <br>
+
+                    k = 3
+
+                    <br><br>
+
+                    Therefore y = 3x.
+
+                    <br>
+
+                    When x = 10:
+
+                    <br>
+
+                    y = 3(10) = <strong>30</strong>
+                </div>
+
+                <h3>Inverse Variation</h3>
+
+                <p>
+                    If y varies inversely as x:
+                </p>
+
+                <div class="formula">
+                    y ∝ 1/x
+                    <br>
+                    y = k/x
+                </div>
+
+                <div class="example">
+                    <strong>Worked Example 2</strong>
+
+                    y varies inversely as x. If y = 8 when x = 3,
+                    find y when x = 12.
+
+                    <br><br>
+
+                    y = k/x
+
+                    <br>
+
+                    8 = k/3
+
+                    <br>
+
+                    k = 24
+
+                    <br><br>
+
+                    Therefore:
+
+                    <br>
+
+                    y = 24/x
+
+                    <br>
+
+                    When x = 12:
+
+                    <br>
+
+                    y = 24/12 = <strong>2</strong>
+                </div>
+
+                <h3>Practical Application</h3>
+
+                <div class="example">
+                    <strong>Worked Example 3</strong>
+
+                    The time required to complete a job varies inversely
+                    as the number of workers. If 6 workers take 10 days,
+                    how many days will 12 workers take?
+
+                    <br><br>
+
+                    Workers × time = constant.
+
+                    <br>
+
+                    6 × 10 = 12 × t
+
+                    <br>
+
+                    60 = 12t
+
+                    <br>
+
+                    t = <strong>5 days</strong>
+                </div>
+
+                <h3>Practice Questions</h3>
+
+                <div class="practice">
+                    <ol>
+                        <li>
+                            y varies directly as x. If y = 15 when x = 5,
+                            find y when x = 12.
+                        </li>
+                        <li>
+                            y varies inversely as x. If y = 6 when x = 4,
+                            find y when x = 8.
+                        </li>
+                        <li>
+                            If 8 workers complete a task in 15 days,
+                            how many days will 12 workers take,
+                            assuming the work rate is the same?
+                        </li>
+                        <li>
+                            If y = kx and y = 24 when x = 6,
+                            find k.
+                        </li>
+                        <li>
+                            If y = k/x and y = 5 when x = 8,
+                            find y when x = 20.
+                        </li>
+                    </ol>
+                </div>
+
+                <h3>Answers</h3>
+
+                <div class="answers">
+                    <ol>
+                        <li>36</li>
+                        <li>3</li>
+                        <li>10 days</li>
+                        <li>4</li>
+                        <li>2</li>
+                    </ol>
+                </div>
+
+            </div>
+        `
+    },
+
+
+    // ========================================================
+    // TOPIC 7
+    // ========================================================
+
+    7: {
+        title: "Permutation",
+
+        lesson: `
+            <div class="lesson-section">
+
+                <h3>Lesson</h3>
+
+                <p>
+                    A permutation is an arrangement of objects in which
+                    the order of arrangement matters.
+                </p>
+
+                <div class="formula">
+                    n! = n × (n − 1) × (n − 2) × ... × 1
+                </div>
+
+                <p>
+                    For example:
+                </p>
+
+                <div class="formula">
+                    5! = 5 × 4 × 3 × 2 × 1 = 120
+                </div>
+
+                <h3>Permutation Formula</h3>
+
+                <div class="formula">
+                    ⁿPᵣ = n! / (n − r)!
+                </div>
+
+                <div class="example">
+                    <strong>Worked Example 1</strong>
+
+                    In how many ways can 3 students be selected and
+                    arranged from 5 students?
+
+                    <br><br>
+
+                    ⁵P₃ = 5!/(5−3)!
+
+                    <br>
+
+                    = 5!/2!
+
+                    <br>
+
+                    = (5 × 4 × 3 × 2 × 1)/(2 × 1)
+
+                    <br>
+
+                    = <strong>60</strong>
+                </div>
+
+                <h3>Arrangements of All Objects</h3>
+
+                <div class="example">
+                    <strong>Worked Example 2</strong>
+
+                    In how many ways can the letters A, B, C and D
+                    be arranged?
+
+                    <br><br>
+
+                    Number of arrangements = 4!
+
+                    <br>
+
+                    = 4 × 3 × 2 × 1
+
+                    <br>
+
+                    = <strong>24</strong>
+                </div>
+
+                <h3>Practical Application</h3>
+
+                <div class="example">
+                    <strong>Worked Example 3</strong>
+
+                    Five students are competing for the positions of
+                    class captain, assistant captain and secretary.
+                    In how many ways can the positions be filled?
+
+                    <br><br>
+
+                    The positions are different, so order matters.
+
+                    <br>
+
+                    ⁵P₃ = 5 × 4 × 3
+
+                    <br>
+
+                    = <strong>60 ways</strong>
+                </div>
+
+                <h3>Practice Questions</h3>
+
+                <div class="practice">
+                    <ol>
+                        <li>Evaluate 6!.</li>
+                        <li>Find ⁷P₂.</li>
+                        <li>How many ways can 4 books be arranged on a shelf?</li>
+                        <li>How many 3-letter arrangements can be made from A, B, C, D and E without repetition?</li>
+                        <li>Seven students are competing for the positions of president and secretary. In how many ways can the positions be filled?</li>
+                    </ol>
+                </div>
+
+                <h3>Answers</h3>
+
+                <div class="answers">
+                    <ol>
+                        <li>720</li>
+                        <li>42</li>
+                        <li>24</li>
+                        <li>60</li>
+                        <li>42</li>
+                    </ol>
+                </div>
+
+            </div>
+        `
+    },
+
+
+    // ========================================================
+    // TOPIC 8
+    // ========================================================
+
+    8: {
+        title: "Combination",
+
+        lesson: `
+            <div class="lesson-section">
+
+                <h3>Lesson</h3>
+
+                <p>
+                    A combination is a selection of objects where the order
+                    of selection does not matter.
+                </p>
+
+                <div class="formula">
+                    ⁿCᵣ = n! / [r!(n − r)!]
+                </div>
+
+                <p>
+                    The major difference between permutation and combination
+                    is that permutation considers arrangement, while
+                    combination considers selection.
+                </p>
+
+                <div class="example">
+                    <strong>Worked Example 1</strong>
+
+                    Find ⁵C₂.
+
+                    <br><br>
+
+                    ⁵C₂ = 5!/[2!3!]
+
+                    <br>
+
+                    = (5 × 4)/(2 × 1)
+
+                    <br>
+
+                    = <strong>10</strong>
+                </div>
+
+                <div class="example">
+                    <strong>Worked Example 2</strong>
+
+                    A committee of 3 students is to be selected from
+                    8 students. How many different committees are possible?
+
+                    <br><br>
+
+                    ⁸C₃ = 8!/[3!5!]
+
+                    <br>
+
+                    = (8 × 7 × 6)/(3 × 2 × 1)
+
+                    <br>
+
+                    = <strong>56</strong>
+                </div>
+
+                <h3>Practical Application</h3>
+
+                <div class="example">
+                    <strong>Worked Example 3</strong>
+
+                    A football team has 12 players available.
+                    How many different groups of 5 players can be selected
+                    for a training exercise?
+
+                    <br><br>
+
+                    Order does not matter.
+
+                    <br>
+
+                    ¹²C₅ = 12!/(5!7!)
+
+                    <br>
+
+                    = <strong>792</strong>
+                </div>
+
+                <h3>Practice Questions</h3>
+
+                <div class="practice">
+                    <ol>
+                        <li>Find ⁶C₂.</li>
+                        <li>Find ⁷C₃.</li>
+                        <li>How many ways can 4 students be selected from 10 students?</li>
+                        <li>A committee of 5 people is selected from 9 people. How many committees are possible?</li>
+                        <li>From 12 books, how many ways can 3 books be selected?</li>
+                    </ol>
+                </div>
+
+                <h3>Answers</h3>
+
+                <div class="answers">
+                    <ol>
+                        <li>15</li>
+                        <li>35</li>
+                        <li>210</li>
+                        <li>126</li>
+                        <li>220</li>
+                    </ol>
+                </div>
+
+            </div>
+        `
+    },
+
+
+    // ========================================================
+    // TOPIC 9
+    // ========================================================
+
+    9: {
+        title: "Probability",
+
+        lesson: `
+            <div class="lesson-section">
+
+                <h3>Lesson</h3>
+
+                <p>
+                    Probability measures how likely an event is to occur.
+                    Its value lies between 0 and 1.
+                </p>
+
+                <div class="formula">
+                    P(E) = Number of favourable outcomes /
+                    Total number of possible outcomes
+                </div>
+
+                <p>
+                    A probability of 0 means the event is impossible,
+                    while a probability of 1 means the event is certain.
+                </p>
+
+                <h3>Complement of an Event</h3>
+
+                <div class="formula">
+                    P(E') = 1 − P(E)
+                </div>
+
+                <div class="example">
+                    <strong>Worked Example 1</strong>
+
+                    A fair die is thrown once. Find the probability
+                    of obtaining an even number.
+
+                    <br><br>
+
+                    Possible outcomes:
+
+                    <br>
+
+                    1, 2, 3, 4, 5, 6
+
+                    <br><br>
+
+                    Even outcomes:
+
+                    <br>
+
+                    2, 4, 6
+
+                    <br><br>
+
+                    Therefore:
+
+                    <br>
+
+                    P(even) = 3/6 = <strong>1/2</strong>
+                </div>
+
+                <h3>Probability Using a Bag of Objects</h3>
+
+                <div class="example">
+                    <strong>Worked Example 2</strong>
+
+                    A bag contains 5 red balls and 3 blue balls.
+                    One ball is selected at random. Find the probability
+                    that it is blue.
+
+                    <br><br>
+
+                    Total balls = 5 + 3 = 8
+
+                    <br>
+
+                    Blue balls = 3
+
+                    <br>
+
+                    P(blue) = <strong>3/8</strong>
+                </div>
+
+                <h3>Practical Application</h3>
+
+                <div class="example">
+                    <strong>Worked Example 3</strong>
+
+                    The probability that a student passes Mathematics is
+                    0.7. Find the probability that the student does not pass.
+
+                    <br><br>
+
+                    P(not pass) = 1 − 0.7
+
+                    <br>
+
+                    = <strong>0.3</strong>
+                </div>
+
+                <h3>Practice Questions</h3>
+
+                <div class="practice">
+                    <ol>
+                        <li>
+                            A fair coin is tossed once. Find the probability
+                            of obtaining a head.
+                        </li>
+                        <li>
+                            A fair die is thrown. Find the probability
+                            of obtaining a number greater than 4.
+                        </li>
+                        <li>
+                            A box contains 4 white and 6 black balls.
+                            Find the probability of selecting a white ball.
+                        </li>
+                        <li>
+                            If P(A) = 0.35, find P(A').
+                        </li>
+                        <li>
+                            A class has 20 boys and 30 girls. If one student
+                            is selected at random, find the probability
+                            of selecting a girl.
+                        </li>
+                    </ol>
+                </div>
+
+                <h3>Answers</h3>
+
+                <div class="answers">
+                    <ol>
+                        <li>1/2</li>
+                        <li>1/3</li>
+                        <li>2/5</li>
+                        <li>0.65</li>
+                        <li>3/5</li>
+                    </ol>
+                </div>
+
+            </div>
+        `
+    },
+
+
+    // ========================================================
+    // TOPIC 10
+    // ========================================================
+
+    10: {
+        title: "Matrices",
+
+        lesson: `
+            <div class="lesson-section">
+
+                <h3>Lesson</h3>
+
+                <p>
+                    A matrix is a rectangular arrangement of numbers,
+                    symbols or expressions arranged in rows and columns.
+                </p>
+
+                <p>
+                    The number of rows and columns determines the order
+                    of a matrix.
+                </p>
+
+                <div class="formula">
+                    Order of matrix = number of rows × number of columns
+                </div>
+
+                <h3>Example of a Matrix</h3>
+
+                <div class="formula">
+                    A =
+                    [ 2 &nbsp; 4 ]
+                    <br>
+                    [ 3 &nbsp; 5 ]
+                </div>
+
+                <p>
+                    Matrix A has 2 rows and 2 columns, so its order is 2 × 2.
+                </p>
+
+                <h3>Addition of Matrices</h3>
+
+                <p>
+                    Matrices can be added only when they have the same order.
+                    Corresponding elements are added together.
+                </p>
+
+                <div class="example">
+                    <strong>Worked Example 1</strong>
+
+                    Given:
+
+                    <br><br>
+
+                    A = [ 2  3 ]
+
+                    <br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;[ 4  5 ]
+
+                    <br><br>
+
+                    B = [ 1  6 ]
+
+                    <br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;[ 2  3 ]
+
+                    <br><br>
+
+                    A + B =
+
+                    <br>
+
+                    [ 3  9 ]
+
+                    <br>
+
+                    [ 6  8 ]
+                </div>
+
+                <h3>Multiplication by a Scalar</h3>
+
+                <div class="example">
+                    <strong>Worked Example 2</strong>
+
+                    Given:
+
+                    <br>
+
+                    A = [ 2  4 ]
+
+                    <br>
+
+                    Find 3A.
+
+                    <br><br>
+
+                    3A = [ 6  12 ]
+                </div>
+
+                <h3>Matrix Multiplication</h3>
+
+                <p>
+                    For matrix multiplication, the number of columns in the
+                    first matrix must equal the number of rows in the second.
+                </p>
+
+                <div class="example">
+                    <strong>Worked Example 3</strong>
+
+                    Given:
+
+                    <br>
+
+                    A = [ 1  2 ]
+
+                    <br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;[ 3  4 ]
+
+                    <br><br>
+
+                    B = [ 2  0 ]
+
+                    <br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;[ 1  2 ]
+
+                    <br><br>
+
+                    AB =
+
+                    <br>
+
+                    [ (1×2)+(2×1) &nbsp; (1×0)+(2×2) ]
+
+                    <br>
+
+                    [ (3×2)+(4×1) &nbsp; (3×0)+(4×2) ]
+
+                    <br><br>
+
+                    Therefore:
+
+                    <br>
+
+                    AB =
+
+                    <br>
+
+                    [ 4  4 ]
+
+                    <br>
+
+                    [ 10  8 ]
+                </div>
+
+                <h3>Practice Questions</h3>
+
+                <div class="practice">
+                    <ol>
+                        <li>
+                            State the order of a matrix having 3 rows and
+                            4 columns.
+                        </li>
+                        <li>
+                            Add [1 2; 3 4] and [5 6; 7 8].
+                        </li>
+                        <li>
+                            If A = [2 3; 4 5], find 2A.
+                        </li>
+                        <li>
+                            State the condition required for two matrices
+                            to be added.
+                        </li>
+                        <li>
+                            Multiply [1 2; 0 3] by [2 1; 4 0].
+                        </li>
+                    </ol>
+                </div>
+
+                <h3>Answers</h3>
+
+                <div class="answers">
+                    <ol>
+                        <li>3 × 4</li>
+                        <li>[6 8; 10 12]</li>
+                        <li>[4 6; 8 10]</li>
+                        <li>They must have the same order.</li>
+                        <li>[10 1; 12 0]</li>
+                    </ol>
+                </div>
+
+            </div>
+        `
+    },.lesson}
 
     `;
 
